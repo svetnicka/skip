@@ -25,7 +25,8 @@
     "craftcms/plugin-installer": "^1.0.0",
     "vlucas/phpdotenv": "^2.4.0",
     "roave/security-advisories": "dev-master",
-    "ext-imagick": "*"
+    "ext-imagick": "*",
+    "ext-intl": "*"
   },
   "scripts": {
     "post-root-package-install": [
