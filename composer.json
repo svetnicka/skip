@@ -26,7 +26,8 @@
     "vlucas/phpdotenv": "^2.4.0",
     "roave/security-advisories": "dev-master",
     "ext-imagick": "*",
-    "ext-intl": "*"
+    "ext-intl": "*",
+    "craftcms/element-api": "^2.0"
   },
   "scripts": {
     "post-root-package-install": [
