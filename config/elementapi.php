@@ -17,7 +17,8 @@ return [
 		            return [
 		                'title' => $entry->title,
 		                'faviconUrl' => $entry->faviconUrl,
-		                'touchIconUrl' => $entry->touchIconUrl
+		                'touchIconUrl' => $entry->touchIconUrl,
+						'hi chris' => 'woops'
 		            ];
 		        },
 		    ];
