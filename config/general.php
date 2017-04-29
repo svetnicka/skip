@@ -7,7 +7,7 @@
  */
 
 return [
-	'*' => {
+	'*' => [
 	    // Base site URL
 	    'siteUrl' => null,
 
@@ -25,8 +25,11 @@ return [
 
 	    // Dev Mode (see https://craftcms.com/support/dev-mode)
 	    'devMode' => false
-	},
-	'craft3' => {
-		
-	}
+	],
+	'craft3' => [
+		'devMode' => true,
+		'siteUrl' => [
+			'default' => 'http://craft3'
+		]
+	]
 ];
