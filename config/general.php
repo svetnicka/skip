@@ -7,21 +7,26 @@
  */
 
 return [
-    // Base site URL
-    'siteUrl' => null,
+	'*' => {
+	    // Base site URL
+	    'siteUrl' => null,
 
-    // Default Week Start Day (0 = Sunday, 1 = Monday...)
-    'defaultWeekStartDay' => 0,
+	    // Default Week Start Day (0 = Sunday, 1 = Monday...)
+	    'defaultWeekStartDay' => 0,
 
-    // Enable CSRF Protection (recommended, will be enabled by default in Craft 3)
-    'enableCsrfProtection' => true,
+	    // Enable CSRF Protection (recommended, will be enabled by default in Craft 3)
+	    'enableCsrfProtection' => true,
 
-    // Whether "index.php" should be visible in URLs (true, false, "auto")
-    'omitScriptNameInUrls' => true,
+	    // Whether "index.php" should be visible in URLs (true, false, "auto")
+	    'omitScriptNameInUrls' => true,
 
-    // Control Panel trigger word
-    'cpTrigger' => 'admin',
+	    // Control Panel trigger word
+	    'cpTrigger' => 'admin',
 
-    // Dev Mode (see https://craftcms.com/support/dev-mode)
-    'devMode' => false,
+	    // Dev Mode (see https://craftcms.com/support/dev-mode)
+	    'devMode' => false
+	},
+	'craft3' => {
+		
+	}
 ];
