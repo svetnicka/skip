@@ -14,8 +14,8 @@ return [
 		        ],
 		        'one' => true,
 		        'transformer' => function(craft\elements\Entry $entry) {
-					$footer = [
-					    "configuration" => [
+		            return [
+						"configuration" => [
 					        "version" => "575",
 					        "isDtmStaging" => false,
 					        "loadJQuery" => false
@@ -552,10 +552,6 @@ return [
 					            ]
 					        ]
 					    ]
-					];
-
-		            return [
-						$footer
 		            ];
 		        },
 		    ];
