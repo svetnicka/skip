@@ -7,6 +7,7 @@ return [
     'endpoints' => [
 		'eat/<slug:{slug}>.json' => function($slug) {
 		    return [
+				'elementType' => craft\elements\Entry::class,
 		        'criteria' => [
 		            'section' => 'eat',
 		            'slug' => $slug
