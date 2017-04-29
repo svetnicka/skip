@@ -398,7 +398,7 @@ return [
 					    ],
 					    "expertsList" => [
 					        "title" => "8 verified HVAC Technicians are online now",
-					        "description" => "HVAC Technicians on JustAnswer are verified through an extensive 8-step process including screening of licenses, certifications, education and/or \u0003employment.",
+					        "description" => "HVAC Technicians on JustAnswer are verified through an extensive 8-step process including screening of licenses, certifications, education and/or employment.",
 					        "learnMore" => [
 					            "title" => "Learn more",
 					            "url" => "//ww2.justanswer.com/expert-quality-process"
