@@ -35,7 +35,7 @@ return [
 	'herokuapp.com' => [
 		'devMode' => false,
 		'siteUrl' => [
-			'default' => 'http://www.justanswer.com'
+			'default' => 'https://test-jacraft3.herokuapp.com'
 		]
 	]
 ];
