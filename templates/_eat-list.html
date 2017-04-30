@@ -1,1 +1,5 @@
-hi
+{% for entry in craft.entries.section('eat').find() %}
+	<div>
+		<p><strong><a href="http://www.justanswer.com/feapi/comp/th-page-rds/?dataSource=https://test-jacraft3.herokuapp.com/eat/{{ entry.slug }}.json" target="_new">{{ entry.title }}</a></strong></p>
+	</div>
+{% endfor %}
