@@ -31,5 +31,11 @@ return [
 		'siteUrl' => [
 			'default' => 'http://craft3'
 		]
+	],
+	'herokuapp.com' => [
+		'devMode' => false,
+		'siteUrl' => [
+			'default' => 'https://test-jacraft3.herokuapp.com'
+		]
 	]
 ];
