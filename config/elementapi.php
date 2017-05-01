@@ -127,7 +127,7 @@ return [
 					        "title" => $entry->title,
 					        "keyword" => "furnace installation",
 					        "urlSlug" => "furnace-installation",
-					        "image" => "//ww2.justanswer.com/static/eat/topics-furnace-installation/topics-furnace-installation.jpg",
+					        "image" => $entry->mainPhoto->url,
 					        "imageAlt" => "An HVAC technician works to install a furnace",
 					        "viewsNumber" => "1K",
 					        "contentHTML" => $entry->eatArticleBody
