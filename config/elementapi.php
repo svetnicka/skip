@@ -131,7 +131,7 @@ return [
 					        "title" => $entry->title,
 					        "keyword" => "furnace installation",
 					        "urlSlug" => "furnace-installation",
-					        "image" => $photos,
+					        "image" => $photos[0],
 					        "imageAlt" => "An HVAC technician works to install a furnace",
 					        "viewsNumber" => "1K",
 					        "contentHTML" => $entry->eatArticleBody
