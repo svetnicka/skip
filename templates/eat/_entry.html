@@ -1,7 +1,3 @@
-{% for asset in entry.mainPhoto %}
-  <p>{{ asset.getUrl('eatMainImage') }}</p>
-{% endfor %}
-
 <!DOCTYPE html>
 <!--[if lt IE 9]>      <html class="ie-lt-9 upgrade-ie"> <![endif]-->
 <!--[if gt IE 8]><!--> <html> <!--<![endif]-->
@@ -125,7 +121,7 @@
 			"title": "{{ entry.title }}",
 			"keyword": "furnace installation",
 			"urlSlug": "furnace-installation",
-			"image": "https://ww2.justanswer.com/static/eat/topics-furnace-installation/topics-furnace-installation.jpg",
+			"image": "{% for asset in entry.mainPhoto %}{{ asset.getUrl('eatMainImage') }}{% endfor %}",
 			"imageAlt": "An HVAC technician works to install a furnace",
 			"viewsNumber": "1K",
 			"contentHTML": "{{ entry.eatArticleBody }}"
