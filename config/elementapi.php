@@ -16,7 +16,7 @@ return [
 		        'transformer' => function(craft\elements\Entry $entry) {
 					$photos = [];
 		            foreach ($entry->mainPhoto as $photo) {
-		                $photos = $photo->url;
+		                $photos = $photo->getUrl("eatMainImage");
 		            }
 		            return [
 						"configuration" => [
