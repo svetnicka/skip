@@ -16,7 +16,7 @@ return [
 		        'transformer' => function(craft\elements\Entry $entry) {
 					$photos = [];
 		            foreach ($entry->mainPhoto as $photo) {
-		                $photos[] = $photo->url;
+		                $photos = $photo->url;
 		            }
 		            return [
 						"configuration" => [
@@ -131,7 +131,7 @@ return [
 					        "title" => $entry->title,
 					        "keyword" => "furnace installation",
 					        "urlSlug" => "furnace-installation",
-					        "image" => $photos[0],
+					        "image" => $photos,
 					        "imageAlt" => "An HVAC technician works to install a furnace",
 					        "viewsNumber" => "1K",
 					        "contentHTML" => $entry->eatArticleBody
